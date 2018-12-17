@@ -1,4 +1,4 @@
-{% set version = "1.2.7" %}
+{% set version = "1.2.8" %}
 
 package:
   name: shellingham
@@ -6,17 +6,17 @@ package:
 
 source:
   url: https://pypi.io/packages/source/s/shellingham/shellingham-{{ version }}.tar.gz
-  sha256: f56b5547ed84296318c21162ce345d83dd5e4755a0e4f57daee1948479f47119
+  sha256: 56e6c7f043661a82b276c241c8e62da62cdf710437164cdef75b3f3ac50fb384
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv "
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
   host:
-    - pip
     - python
+    - pip
   run:
     - python
 
