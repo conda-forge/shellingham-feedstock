@@ -5,11 +5,9 @@ Home: https://pypi.org/project/shellingham
 
 Package license: ISC (ISCL)
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/shellingham-feedstock/blob/master/LICENSE.txt)
 
 Summary: Tool to Detect Surrounding Shell
-
-
 
 Current build status
 ====================
