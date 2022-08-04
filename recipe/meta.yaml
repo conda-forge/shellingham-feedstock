@@ -1,4 +1,4 @@
-{% set version = "1.4.0" %}
+{% set version = "1.5.0" %}
 
 package:
   name: shellingham
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/s/shellingham/shellingham-{{ version }}.tar.gz
-  sha256: 4855c2458d6904829bd34c299f11fdeed7cfefbf8a2c522e4caea6cd76b3171e
+  sha256: 72fb7f5c63103ca2cb91b23dee0c71fe8ad6fbfd46418ef17dbe40db51592dad
 
 build:
   number: 0
