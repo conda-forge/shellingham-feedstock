@@ -1,9 +1,9 @@
 About shellingham
 =================
 
-Home: https://pypi.org/project/shellingham
+Home: https://github.com/sarugaku/shellingham
 
-Package license: ISC (ISCL)
+Package license: MIT
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/shellingham-feedstock/blob/main/LICENSE.txt)
 
