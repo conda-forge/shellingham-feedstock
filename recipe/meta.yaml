@@ -1,5 +1,5 @@
 {% set name = "shellingham" %}
-{% set version = "1.5.0.post1" %}
+{% set version = "1.5.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/shellingham-{{ version }}.tar.gz
-  sha256: 823bc5fb5c34d60f285b624e7264f4dda254bc803a3774a147bf99c0e3004a28
+  sha256: 41bc81fa8d74afb04338e0398f9732ee2217407ade778ae1e2709bde89d85c45
 
 build:
   noarch: python
